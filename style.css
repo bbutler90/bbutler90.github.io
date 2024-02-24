@@ -1,0 +1,113 @@
+.CV {
+    font-family: Helvetica;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f0f8ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#name-header {
+    font-size: 30px;
+    color: salmon;
+    margin-top: 0px;
+}
+
+.exp-section-header {
+    font-size: 24px;
+    color: salmon;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.experience-header {
+    font-size: 18px;
+    color: salmon;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.section-header {
+    color: salmon;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.experience {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.profile,
+.education,
+.skills {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    flex-basis: calc(33.33% - 10px);
+    box-sizing: border-box;
+}
+
+.profile p,
+.education p,
+.skills p {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 600px) {
+    .profile,
+    .education,
+    .skills,
+    .experience {
+        flex-basis: 100%;
+    }
+}
+
+#name-header + a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: salmon;
+    font-size: 20px;
+    border: 2px solid salmon;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+    border-top: 1px solid salmon;
+}
+
+.footer h2 {
+    color: salmon;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: salmon;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    font-size: 18px;
+}
